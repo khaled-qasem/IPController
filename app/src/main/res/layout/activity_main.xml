@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.example.khaled.ipcontroller.MainActivity">
+
+
+    <Button
+        android:id="@+id/STATIC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:text="STATIC"/>
+
+    <Button
+        android:id="@+id/dhcp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:text="DHCP"/>
+
+    <Button
+        android:id="@+id/ip_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:text="Status"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:text=""/>
+
+</LinearLayout>
